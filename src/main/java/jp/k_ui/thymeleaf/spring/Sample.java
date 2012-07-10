@@ -13,4 +13,9 @@ public class Sample {
 		return "hello servlet";
 	}
 	
+	@RequestMapping("/tl")
+	public String tl() {
+		return "test";
+	}
+	
 }
